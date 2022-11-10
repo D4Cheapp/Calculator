@@ -1,0 +1,12 @@
+.Slider{
+    width: 50px;
+    height: 17px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.Slider::-webkit-scrollbar{
+    border-radius: 10px;
+}
+.Slider::-webkit-scrollbar-thumb {
+    border-radius: 50%;
+}

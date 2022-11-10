@@ -1,0 +1,43 @@
+.Calculator_Input{
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 315px;
+    padding: 25px 15px 15px 22px;
+
+    display: grid;
+    grid-template-rows: repeat(5,45px);
+    grid-template-columns: repeat(4,75px);
+    gap: 20px;
+}
+.Calculator_Input button{
+    position: relative;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px;
+    border-inline: none;
+    border-top: none;
+}
+.Calculator_Input p{
+    position: absolute;
+    top: 7px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#del p{
+    color: white;
+}
+#rest p {
+    color: white;
+}
+#\=:active{
+    border: none;
+}
+#del:active,#rest:active{
+    border: none;
+}
+.Calculator_Input button:active{
+    border: none;
+    transform: translate(0,3px);
+}

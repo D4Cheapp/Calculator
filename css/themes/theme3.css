@@ -1,0 +1,59 @@
+body{
+    background: #17062A;
+    color: #FCE449;
+}
+
+
+.Slider::-webkit-scrollbar{
+    background: #1E0836;
+}
+.Slider::-webkit-scrollbar-thumb {
+    background: #00E1CC;
+    border: #1E0836 2px solid;
+ }
+.Slider::-webkit-scrollbar-thumb:active{
+    background: #97F8F7;
+}
+
+
+.Calculator_Display{
+    background: #1E0836;
+}
+
+
+.Calculator_Input{
+    background: #1E0836;
+}
+.Calculator_Input{
+    background: #1E0836;
+    color: #FFE756;
+}
+.Calculator_Input button{
+    background: #331B4D;
+    border-bottom:#8720A0 3px solid ;
+}
+.Calculator_Input button:active{
+    background: #6B34AC;
+}
+.Calculator_Input p{
+    color: #FFE756;
+}
+
+
+#del,#rest{
+    background: #56077C;
+    border-bottom: #BE16F5 3px solid;
+}
+#del:active,#rest:active{
+    background: #8631B1;
+}
+#\={
+    background: #00DECF;
+    border-bottom: #72F5EF 3px solid;
+}
+#\=:active{
+    background: #94FFF9;
+}
+#\= p{
+    color: black;
+}

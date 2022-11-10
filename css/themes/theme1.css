@@ -1,0 +1,55 @@
+body{
+    background: #3B4664;
+    color: white;
+}
+
+
+.Slider::-webkit-scrollbar{
+    background: #252D44;
+}
+.Slider::-webkit-scrollbar-thumb {
+    background: #D04030;
+    border: #252D44 2px solid;
+}
+.Slider::-webkit-scrollbar-thumb:active{
+    background: #FE695E;
+}
+
+
+.Calculator_Display{
+    background: #181F32;
+}
+
+
+.Calculator_Input{
+    background: #252D44;
+}
+.Calculator_Input button{
+    background: #EAE3DB;
+    border-bottom: #B6A49A 3px solid;
+}
+.Calculator_Input button:active{
+    background: white;
+}
+.Calculator_Input p{
+    color: #454759;
+}
+
+
+#del,#rest{
+    background: #647299;
+    border-bottom: #404E75 3px solid;
+}
+#del:active,#rest:active{
+    background: #A2B3E1;
+}
+#\={
+    background: #D13F30;
+    border-bottom: #8F2316 3px solid;
+}
+#\=:active{
+    background: #FE6C5D;
+}
+#\= p{
+    color: white;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="icon" href="favicon-32x32.png"/>
+
+    <link href="../css/themes/theme1.css" rel="stylesheet" class="Theme">
+    <link href="../css/themes/theme2.css" rel="stylesheet alternate" class="Theme">
+    <link href="../css/themes/theme3.css" rel="stylesheet alternate" class="Theme">
+
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/display.css" rel="stylesheet">
+    <link href="../css/slider.css" rel="stylesheet">
+    <link href="../css/topBar.css" rel="stylesheet">
+    <link href="../css/input.css" rel="stylesheet">
+</head>
+<body>
+    <div class="Calculator">
+        <div class="Calculator_TopBar">
+            <h1>calc</h1>
+            <div class="TopBar_ThemeChoose">
+                <p class="TopBar_ThemeChoose_Theme">THEME</p>
+                <div style="margin-bottom: 5px">
+                    <div class="TopBar_ThemeNumber">
+                        <p>1</p><p>2</p><p>3</p>
+                    </div>
+                    <div class="Slider" onscroll="logSlider()"><p>                                                                     </p></div>
+                </div>
+            </div>
+        </div>
+        <div class="Calculator_Display">
+            <p class="Calculator_Display_Input">0</p>
+        </div>
+        <div class="Calculator_Input">
+            <button onclick="stackAdd(7)"><p>7</p></button><button onclick="stackAdd(8)"><p>8</p></button><button onclick="stackAdd(9)"><p>9</p></button><button onclick="del()" id="del"><p>DEL</p></button>
+            <button onclick="stackAdd(4)"><p>4</p></button><button onclick="stackAdd(5)"><p>5</p></button><button onclick="stackAdd(6)"><p>6</p></button><button onclick="action('+')"><p>+</p></button>
+            <button onclick="stackAdd(1)"><p>1</p></button><button onclick="stackAdd(2)"><p>2</p></button><button onclick="stackAdd(3)"><p>3</p></button><button onclick="action('-')"><p>-</p></button>
+            <button onclick="addDot()"><p>.</p></button><button onclick="addNull()"><p>0</p></button><button onclick="action('/')"><p>/</p></button><button onclick="action('*')"><p>x</p></button>
+            <button style="grid-column: 1/3" id="rest" onclick="rest()"><p>REST</p></button><button style="grid-column: 3/5" onclick="equals()" id="="><p>=</p></button>
+        </div>
+    </div>
+    <script src="../js/themeSwitch.js"></script>
+    <script src="../js/calculate.js"></script>
+</body>
+</html>

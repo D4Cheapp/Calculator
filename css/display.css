@@ -1,0 +1,13 @@
+.Calculator_Display{
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-inline: 20px;
+}
+.Calculator_Display p {
+    font-size: 40px;
+    font-weight: 500;
+}
