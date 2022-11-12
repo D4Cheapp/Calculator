@@ -2,11 +2,11 @@
     border-radius: 10px;
     margin-top: 20px;
     height: 315px;
-    padding: 25px 15px 15px 22px;
+    padding: 2vh 5% 2vh 5%;
 
     display: grid;
-    grid-template-rows: repeat(5,45px);
-    grid-template-columns: repeat(4,75px);
+    grid-template-rows: repeat(5,15%);
+    grid-template-columns: repeat(4,21.2%);
     gap: 20px;
 }
 .Calculator_Input button{
@@ -25,10 +25,10 @@
     margin: 0 auto;
 }
 
-#del p{
+#del{
     color: white;
 }
-#rest p {
+#rest{
     color: white;
 }
 #\=:active{

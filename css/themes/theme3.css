@@ -30,13 +30,11 @@ body{
 }
 .Calculator_Input button{
     background: #331B4D;
-    border-bottom:#8720A0 3px solid ;
+    border-bottom:#8720A0 3px solid;
+    color: #FFE756;
 }
 .Calculator_Input button:active{
     background: #6B34AC;
-}
-.Calculator_Input p{
-    color: #FFE756;
 }
 
 
@@ -50,10 +48,8 @@ body{
 #\={
     background: #00DECF;
     border-bottom: #72F5EF 3px solid;
+    color: black;
 }
 #\=:active{
     background: #94FFF9;
-}
-#\= p{
-    color: black;
 }

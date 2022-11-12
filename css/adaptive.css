@@ -1,0 +1,73 @@
+@media screen and (orientation:portrait) {
+    .Calculator{
+        max-width: 80vw;
+    }
+    .Calculator_Display{
+        height: 12vh;
+        border-radius: 2.5vw;
+        margin-bottom: 4vh;
+    }
+    .Calculator_Display p {
+        font-size: 6vh;
+    }
+    .Calculator_Input button{
+        font-size: 4.5vh;
+        border-radius: 2vw;
+    }
+    .Calculator_Input{
+        height: 53vh;
+        padding-inline: 2.5vw;
+        grid-template-rows: repeat(5,9vh);
+        grid-template-columns: repeat(4,17vw);
+        gap: 2.5vw;
+        row-gap: 2vh;
+        border-radius: 2.5vw;
+    }
+    .Calculator_TopBar{
+        height: 6vh;
+        padding-inline: 2vw;
+        margin-bottom: 2vh;
+    }
+    .Calculator_TopBar h1{
+        width: 45%;
+        font-size: 4vh;
+    }
+    .Slider{
+        width: 30vw;
+        height: 4vh;
+    }
+    .Slider p {
+        width: 120vw;
+    }
+    .Slider::-webkit-scrollbar{
+        -webkit-appearance: none;
+        height: 4vh;
+        width: 1vw;
+        border-radius: 3vw;
+    }
+    .Slider::-webkit-scrollbar-thumb {
+        border-radius: 50%;
+    }
+    .TopBar_ThemeNumber{
+        position: absolute;
+        justify-content: center;
+        margin-top: -3vh;
+        font-size: 3vh;
+        width: 30vw;
+        gap: 6vw;
+    }
+    .TopBar_ThemeChoose_Theme {
+        font-size: 1.3vh;
+        height: 2vh;
+    }
+    .TopBar_ThemeChoose{
+        gap: 3vw;
+        margin-bottom: -.9vh;
+    }
+    #del,#rest{
+        font-size: 3vh;
+    }
+    #\={
+        font-size: 3vh;
+    }
+}

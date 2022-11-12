@@ -18,26 +18,31 @@ function stackAdd(number){
 }
 
 function action(sign){
-    if (!["+","-","*","/","."].includes(memory[memory.length-1])){
-        memory += stack + sign
-        stack = ""
+    if (stack !== ""){
+        if (!["+","-","*","/","."].includes(memory[memory.length-1])){
+            memory += stack + sign
+            stack = ""
+        }
     }
+
 }
 
 function equals(){
     memory += stack;
-    let count = eval(memory)
-    if ((count+"").length > 16){
-        draw("This result is too big");
-        stack = "";
-        memory = "";
-        counted = true;
-    }
-    else {
-        draw(count)
-        stack = count;
-        memory = "";
-        counted = true;
+    if (memory !== "" ){
+        let count = eval(memory)
+        if ((count+"").length > 16){
+            draw("This result is too big");
+            stack = "";
+            memory = "";
+            counted = true;
+        }
+        else {
+            draw(count)
+            stack = count;
+            memory = "";
+            counted = true;
+        }
     }
 }
 function addDot(){

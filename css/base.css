@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;700;900&display=swap');
 .Calculator{
     position: absolute;
-    width: 400px;
-    height: 550px;
+    max-width: 400px;
 
     left: 0;
     right: 0;
@@ -14,6 +13,10 @@
     font-family: 'League Spartan', serif;
     font-weight: 300;
 }
+body{
+    overflow: hidden;
+}
+
 
 
 
